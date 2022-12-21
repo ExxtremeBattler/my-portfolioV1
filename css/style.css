@@ -9,6 +9,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color: red;
 }
 
 header{
@@ -58,7 +59,7 @@ position: absolute;
 z-index: 1;
 top: 150%;
 right: 16px;
-font-size: 50px;
+font-size: 70px;
 }
 
 .page-section{
@@ -69,6 +70,15 @@ font-size: 50px;
   background-color: black;
   color: red;
 }
+
+.vl{
+  border-left: 6px solid green;
+    height: 500px;
+}
+
+    
+
+
 h2,
 h3,
 h4,
@@ -78,5 +88,5 @@ h6 {
 }
 
 p {
-  margin: 0;
+  font-size: 25px;
 }
