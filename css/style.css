@@ -12,6 +12,10 @@ body {
   background-color: red;
 }
 
+p {
+  font-size: 25px;
+}
+
 header{
   padding: 20px;
   display: grid;
@@ -71,14 +75,8 @@ font-size: 70px;
   color: red;
 }
 
-#work{
-  height: 1500px;
-}
 
-.vl{
-  border-left: 6px solid green;
-    height: 500px;
-}
+
 
 #projectGrid {
   margin: 0px 5%;
@@ -90,20 +88,20 @@ font-size: 70px;
   "project2 project3"
   "project4 project5"
   ;
-  
+  max-width: initial;
+  position: relative;
+  left: 120px;
+  bottom: 330px;
 }
 
 #project1 {
   grid-area: project1;
   background-image: url(../images/02-portfolio-1.jpg);
-  /* min-height: px; */
 }
-
 
 #project5 {
   grid-area: project5;
   background-image: url(../images/02-portfolio-2.jpg);
-
 }
 
 #project2 {
@@ -139,7 +137,27 @@ font-size: 70px;
   font-size: 20px;
   background: red;
 }
-    
+
+#about{
+  max-width:initial;
+}
+
+.vertical {
+  border-left: 2px ridge red;
+  height: 250px;
+  width: 1200px;
+  padding: 30px;
+  position: relative;
+  left: 200px;
+  bottom: 60px;
+}
+
+#work{
+  height:fit-content;
+}
+
+
+
 
 
 h2,
@@ -150,6 +168,5 @@ h6 {
   margin: 0;
 }
 
-p {
-  font-size: 25px;
-}
+
+
