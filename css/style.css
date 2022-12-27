@@ -13,7 +13,7 @@ body {
 }
 
 p {
-  font-size: 25px;
+  font-size: 300px;
 }
 
 header{
@@ -25,6 +25,7 @@ header{
   grid-template-areas: 
   "logo navBar";
   background-color: black;
+  
 }
 
 header h1 {
@@ -35,7 +36,7 @@ header h1 {
 header ul {
   grid-area: "navBar";
   float: right;
-  padding-right: 200px;
+  padding-right: 50px;
 }
 
 header ul li {
@@ -57,6 +58,11 @@ header ul li a {
   position: relative;
 }
 
+.avatar{
+  height: 50px;
+  width: 50px;
+}
+
 .hero-banner h2{
 background-color: black;
 position: absolute;
@@ -75,9 +81,6 @@ font-size: 70px;
   color: red;
 }
 
-
-
-
 #projectGrid {
   margin: 0px 5%;
   display: grid;
@@ -94,14 +97,37 @@ font-size: 70px;
   bottom: 330px;
 }
 
-#project1 {
-  grid-area: project1;
-  background-image: url(../images/02-portfolio-1.jpg);
+.projectGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
 }
 
-#project5 {
-  grid-area: project5;
-  background-image: url(../images/02-portfolio-2.jpg);
+.projectGridArea a{
+  text-decoration: none;
+  color: black;
+}
+
+.subHeading {
+  background-color: black;
+  height: 25px;
+  color:black;
+  font-size: 20px;
+  background: red;
+}
+
+#project1 {
+  grid-area: project1;
+}
+
+#project1 a img{
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
 }
 
 #project2 {
@@ -119,28 +145,16 @@ font-size: 70px;
   background-image: url(../images/02-portfolio-4.jpg);
 }
 
-.projectGridArea {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 20px;
-  cursor: pointer;
-  display: grid;
-  align-content: end;
-  
+#project5 {
+  grid-area: project5;
+  background-image: url(../images/02-portfolio-2.jpg);
 }
 
-.subHeading {
-  background-color: black;
-  height: 25px;
-  color:black;
-  font-size: 20px;
-  background: red;
-}
 
-#about{
+.about{
   max-width:initial;
 }
+
 
 .vertical {
   border-left: 2px ridge red;
@@ -150,9 +164,11 @@ font-size: 70px;
   position: relative;
   left: 200px;
   bottom: 60px;
+  font-size: 30px;
 }
 
-#work{
+
+.work{
   height:fit-content;
 }
 
