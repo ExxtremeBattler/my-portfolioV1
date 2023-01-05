@@ -20,7 +20,7 @@ The page contains the following sections:
 
 'Contact Me' provides contact information for when you will want to get in touch!
 
-<img src = 'images\my-portfolioV1 demo.gif'></img>
+![my-portfolioV1 demo](https://user-images.githubusercontent.com/69109391/210756002-7d7f4fbb-9cf2-48c9-a142-13e1869d80b7.gif)
 
 ## Credits
 
