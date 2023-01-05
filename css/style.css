@@ -4,6 +4,7 @@
   margin: 0;
 }
 
+
 body {
   margin: 0;
   padding: 0;
@@ -174,7 +175,21 @@ font-size: 70px;
 
 
 
-
+@media screen and (max-width: 768px) {
+  body{
+    background-color: black;
+  }
+  .page-section{
+    width: 100%;
+}
+  .projectGridArea{
+    width: 50%;
+  }
+  .vertical{
+    width: 75%;
+    border-style: none;
+  }
+}
 
 h2,
 h3,
