@@ -181,11 +181,15 @@ font-size: 70px;
   .page-section{
     width: 100%;
 }
+header{
+  font-size: 80%;
+}
   .projectGridArea{
     width: 50%;
     float: left
   }
   .vertical{
+    font-size: 150%;
     width: 75%;
     border-style: none;
   }
