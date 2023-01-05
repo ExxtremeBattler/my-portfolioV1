@@ -184,6 +184,7 @@ font-size: 70px;
 }
   .projectGridArea{
     width: 50%;
+    float: left
   }
   .vertical{
     width: 75%;
